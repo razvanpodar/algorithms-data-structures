@@ -31,3 +31,25 @@ void insertion_sort(int *array, int size)
     }
 }
 
+void selection_sort(int *array, int size)
+{
+    int min;
+    for (int i = 0; i < size - 1; i++)
+    {
+        min = i;
+        for (int j = i + 1; j < size; j++)
+        {
+            if (array[j] < array[min])
+                min = j;
+        }
+
+        if (min != i)
+        {
+            int aux = array[min];
+            array[min] = array[i];
+            array[i] = aux;
+        }
+
+    }
+}
+

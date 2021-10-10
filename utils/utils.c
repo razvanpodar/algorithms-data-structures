@@ -18,6 +18,13 @@ bool is_sorted(int *array, int size)
     return true;
 }
 
+void swap(int *array, int i, int j)
+{
+    int aux = array[j];
+    array[j] = array[i];
+    array[i] = aux;
+}
+
 int* generate_array(int size, int max)
 {
     int *array = (int*)malloc(sizeof(int) * size); 
