@@ -7,7 +7,7 @@ I am using __gcc__ to build the project.
 
 ### Sorting
 - [x] Bubble sort
-- [ ] Insertion sort
+- [x] Insertion sort
 - [ ] Selection sort
 - [ ] Heap sort
 - [ ] Merge sort
@@ -17,6 +17,6 @@ I am using __gcc__ to build the project.
 
 ## Build
 - make sure you have gcc installed
-- run build script  
+- run build script     
 `./build.sh`
 - use algods.exe to run the application
