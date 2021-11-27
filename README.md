@@ -8,7 +8,7 @@ I am using __gcc__ to build the project.
 ### Sorting
 - [x] Bubble sort
 - [x] Insertion sort
-- [ ] Selection sort
+- [x] Selection sort
 - [ ] Heap sort
 - [ ] Merge sort
 - [ ] Quick sort
